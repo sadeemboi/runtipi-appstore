@@ -2,7 +2,7 @@ version: "3.7"
 services:
   invidious:
     container_name: invidious
-    image: git.nadeko.net/fijxu/invidious:latest-arm64
+    image: quay.io/invidious/invidious:master-arm64
     restart: unless-stopped
     depends_on:
       invidious-db:
